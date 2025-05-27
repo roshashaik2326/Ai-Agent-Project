@@ -1,3 +1,24 @@
+# 🐶🐱 Dog and Cat Image Classification
+
+## 1. 📄 Project Content
+
+This project focuses on building a Convolutional Neural Network (CNN) model using deep learning to classify images into two categories: **dogs** and **cats**. The dataset used is a subset of the popular Kaggle Dog vs. Cat dataset. The model is trained using TensorFlow and Keras to learn distinguishing features of dog and cat images.
+
+---
+
+## 2. 🧠 Project Code
+
+### 📦 Imports
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+import tensorflow as tf
+from tensorflow.keras.preprocessing.image import ImageDataGenerator
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense
+
+
+
 # Ai-Agent-Project
 ## AI-PROJECTS
 
